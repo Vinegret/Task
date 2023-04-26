@@ -2,4 +2,5 @@
 
 Console.WriteLine("Введите целое трехзначное число");
 int num = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(num % 10);
+int LastNum = num % 10;
+Console.WriteLine($"Последняя цифра числа {num} - {LastNum}");
