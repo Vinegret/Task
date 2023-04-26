@@ -6,9 +6,9 @@ Console.WriteLine("Введите второе целое число");
 int number2 = Convert.ToInt32(Console.ReadLine());
 if (number1 * number1 == number2)
 {
-    Console.WriteLine($"Да, число {number2} является квадратом {number1}");
+    Console.WriteLine($"Да, число {number2} является квадратом числа {number1}");
 }
 else
 {
-    Console.WriteLine($"Нет, число {number2} не является квадратом {number1}");
+    Console.WriteLine($"Нет, число {number2} не является квадратом числа {number1}");
 }
