@@ -9,5 +9,5 @@ if (remain == 0)
 }
 else 
 {
-    Console.WriteLine($"Число {num} является нечетным");
+    Console.WriteLine($"Число {num} не является четным");
 }
