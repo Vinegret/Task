@@ -14,9 +14,12 @@ Console.WriteLine($"Число {number} возведенное в степень
 
 int Total(int num, int degr)
 {
-    for (int i = 1; i <= degr; i++)
+    int i = 1;
+    int result = 1;
+    while(i <= degr)
     {
-        num = num * num;
+        result = result * num;
+        i++;
     }
-    return num;
+    return result;
 }
