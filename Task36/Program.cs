@@ -27,7 +27,7 @@ void PrintArray(int[] arr, string sep)
 int SumOddElem (int[] arr)
 {
     int sum = 0;
-    for (int i = 0; i < arr.Length; i++)
+    for (int i = 1; i < arr.Length; i++)
     {
         sum += arr[i];
         i++;
