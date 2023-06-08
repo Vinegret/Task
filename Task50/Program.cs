@@ -52,6 +52,12 @@ void PrintElem(int numRows, int rows, int numColumns, int columns, int result)
     }
 }
 
+// bool PrintElem(int numRows, int rows, int numColumns, int columns)
+// {
+//     return numRows < rows && numRows>0 && numColumns < columns && numColumns > 0;
+
+// }
+
 Console.WriteLine("Введите количество строк");
 int Rows = Convert.ToInt32(Console.ReadLine());
 
@@ -76,6 +82,12 @@ PrintMatrix(createMatrix);
 
 int Result = NumELem(createMatrix, NumRows , NumColumns);
 PrintElem(NumRows, Rows, NumColumns, Columns, Result);
+
+// int  Result = NumELem(createMatrix, NumRows , NumColumns);
+// bool printElem = PrintElem(NumRows, Rows, NumColumns, Columns);
+// Console.WriteLine( printElem 
+//                     ? $"Элемент находящийся на {NumRows} строке и {NumColumns} столбце имеет значение {Result}"
+//                     : "Элемент который вы выбрали находится за пределами двумерного массива");
 
 
 
